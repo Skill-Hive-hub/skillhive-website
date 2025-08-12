@@ -90,10 +90,15 @@ section {
 }
 
 .about p {
-    margin-left: clamp(10px, 10%, 450px);
-    margin-right: clamp(10px, 10%, 450px);
+    max-width: 600px;      /* limits paragraph width for readability */
+    margin-left: auto;     /* centers paragraph horizontally */
+    margin-right: auto;
+    padding-left: 10px;    /* optional small padding on sides */
+    padding-right: 10px;
+    box-sizing: border-box; /* makes padding included in width */
     text-align: center;
 }
+
 
 .contact form {
     display: flex;
@@ -131,5 +136,6 @@ footer {
     color: #aaa;
     border-top: 2px solid #00f7ff;
 }
+
 
 
