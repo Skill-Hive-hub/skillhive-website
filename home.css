@@ -50,7 +50,7 @@ section {
     background: #111;
 }
 
-.services h2, .about h2, .contact h2 {
+.services h2, . h2, .contact h2 {
     color: #00f7ff;
     margin-bottom: 20px;
 }
@@ -85,12 +85,13 @@ section {
     margin-bottom: 10px;
 }
 
-.about {
+. {
     background: linear-gradient(145deg, #0d0d0d, #1a1a1a);
 }
 
 .about p {
-    margin: 0 450px;
+    margin-right: 10%;
+    margin-left: 10%;
     text-align: center;
 }
 
@@ -130,3 +131,4 @@ footer {
     color: #aaa;
     border-top: 2px solid #00f7ff;
 }
+
