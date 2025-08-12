@@ -1,0 +1,86 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Dark modern full-screen layout */
+body {
+    background-color: #0a0f1e;
+    color: #e0f7ff;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height */
+    width: 100vw;  /* Full width */
+    overflow: hidden; /* No scroll */
+}
+
+/* Container with centered content */
+.container {
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Logo styling */
+.logo {
+    width: 150px;
+    height: auto;
+    filter: drop-shadow(0 0 10px #00c3ff);
+    animation: glow 3s infinite alternate ease-in-out;
+}
+
+/* Title styling */
+.title {
+    font-size: 2.5rem;
+    margin-top: 10px;
+    color: #00c3ff;
+    text-shadow: 0 0 8px rgba(0, 195, 255, 0.7);
+    animation: fadeUp 2s ease-in-out;
+}
+
+/* Tagline */
+.tagline {
+    font-size: 1.2rem;
+    color: #a0dfff;
+    margin-top: 5px;
+    animation: fadeUp 2.5s ease-in-out;
+}
+
+/* Button styling */
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background: #00c3ff;
+    color: #0a0f1e;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: #0a0f1e;
+    color: #00c3ff;
+    border: 2px solid #00c3ff;
+    box-shadow: 0 0 15px #00c3ff;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes glow {
+    from { filter: drop-shadow(0 0 5px #00c3ff); }
+    to { filter: drop-shadow(0 0 20px #00c3ff); }
+}

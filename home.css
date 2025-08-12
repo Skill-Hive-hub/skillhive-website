@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0d0d0d;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #111;
+    border-bottom: 2px solid #00f7ff;
+}
+
+header .logo img {
+    height: 60px;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #00f7ff;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.welcome {
+    background: linear-gradient(145deg, #0d0d0d, #1a1a1a);
+}
+
+.services {
+    background: #111;
+}
+
+.services h2, .about h2, .contact h2 {
+    color: #00f7ff;
+    margin-bottom: 20px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service-cards img {
+    width: 100px;
+    height: 100px;
+}
+
+.card {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px;
+    transition: transform 0.3s;
+    border: 1px solid #00f7ff;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.about {
+    background: linear-gradient(145deg, #0d0d0d, #1a1a1a);
+}
+
+.about p {
+    margin: 0 450px;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.contact button {
+    padding: 10px;
+    border: none;
+    background: #00f7ff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact button:hover {
+    background: #00d4ff;
+}
+
+footer {
+    background: #111;
+    padding: 15px;
+    text-align: center;
+    color: #aaa;
+    border-top: 2px solid #00f7ff;
+}
