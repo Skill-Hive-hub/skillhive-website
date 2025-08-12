@@ -26,7 +26,7 @@ body {
 
 /* Logo styling */
 .logo {
-    width: 150px;
+    width: 300px;
     height: auto;
     filter: drop-shadow(0 0 10px #00c3ff);
     animation: glow 3s infinite alternate ease-in-out;
@@ -84,3 +84,4 @@ body {
     from { filter: drop-shadow(0 0 5px #00c3ff); }
     to { filter: drop-shadow(0 0 20px #00c3ff); }
 }
+
