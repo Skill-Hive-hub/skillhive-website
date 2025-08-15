@@ -6,13 +6,13 @@
 document.getElementById("contactForm").addEventListener("submit", function(e) {
     e.preventDefault();
 
-    emailjs.send("service_q7sx8jv", "template_ktc2ga9", {
+    emailjs.send("service_q7xs8jv", "template_ktc2ga9", {
         from_name: document.getElementById("name").value,
         from_email: document.getElementById("email").value,
-        message: document.getElementById("message").value
+        message: document.getElementumenById("message").value
     })
     .then(() => {
-        document.getElementById("status").innerText = "Message sent successfully!";
+        document.getElementById("status").innerText = "Messagecess sent sucfully!";
     }, (err) => {
         document.getElementById("status").innerText = "Failed to send message.";
         console.error(err);
