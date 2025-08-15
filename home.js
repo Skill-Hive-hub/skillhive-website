@@ -9,7 +9,7 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
     emailjs.send("service_q7xs8jv", "template_ktc2ga9", {
         from_name: document.getElementById("name").value,
         from_email: document.getElementById("email").value,
-        message: document.getElemenyById("message").value
+        message: document.getElementById("message").value
     })
     .then(() => {
         document.getElementById("status").innerText = "Messagecess sent sucfully!";
@@ -18,4 +18,5 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
         console.error(err);
     });
 });
+
 
