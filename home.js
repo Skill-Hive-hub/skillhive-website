@@ -12,9 +12,10 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
         message:  document.getElementById("message").value
     })
     .then(() => {
-        document.getElementById("status").innerText = "Message sent sucfully!";
+        document.getElementById("status").innerText = "Message sent successfully!";
     }, (err) => {
         document.getElementById("status").innerText = "Failed to send message.";
         console.error(err);
     });
 });
+
