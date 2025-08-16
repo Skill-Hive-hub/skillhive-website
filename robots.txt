@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Disallow admin or private folders (if you have them, otherwise remove these lines)
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://skillset.github.io/sitemap.xml
