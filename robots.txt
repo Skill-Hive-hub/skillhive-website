@@ -6,4 +6,5 @@ Disallow: /admin/
 Disallow: /private/
 
 # Sitemap location
-Sitemap: https://skillset.github.io/sitemap.xml
+Sitemap: https://skill-hive-hub.github.io/skillhive-website/sitemap.xml
+
